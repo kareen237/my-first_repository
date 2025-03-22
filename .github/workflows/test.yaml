@@ -5,5 +5,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
         - name: Print the input name to STDOU
-        - run: echo "The username is event"
+          run: echo "The username is event"
      
