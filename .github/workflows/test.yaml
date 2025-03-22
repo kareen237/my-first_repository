@@ -3,7 +3,7 @@ on: push
 jobs: 
   classpractice: 
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: Print the input name to STDOU
         - run: echo "The username is ${{inputs.username}} event"
      
