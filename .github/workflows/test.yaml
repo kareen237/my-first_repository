@@ -1,0 +1,9 @@
+name: gitactiontest
+on: push
+jobs: 
+  classpractice: 
+    runs-on: ubuntu-latest
+    steps: 
+     -name: Print the input name to STDOU
+     -run: echo "The username is ${{inputs.username}}"
+     
